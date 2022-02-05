@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31313.79
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SJERP.API", "src\SJERP.API\SJERP.API.csproj", "{D91D54C1-2807-49F6-AF09-51F9DD22D979}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SJERP.Domain", "src\SJERP.Domain\SJERP.Domain.csproj", "{79E6549C-388A-46B6-92E0-8C19B6EF6604}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SJERP.Infrastructure", "src\SJERP.Infrastructure\SJERP.Infrastructure.csproj", "{7FBFBBDE-C1C5-40BC-8218-C751D430E21B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{007B4621-1229-4166-85D8-D0D8972F7B16}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Business", "Business", "{9DDAD757-F624-46E7-A54F-6552F4498C8B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SJERP.Business.Authentication", "src\Business\SJERP.Business.Authentication\SJERP.Business.Authentication.csproj", "{24E22D01-1062-4B5A-9B2D-E301DC777853}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D91D54C1-2807-49F6-AF09-51F9DD22D979}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D91D54C1-2807-49F6-AF09-51F9DD22D979}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D91D54C1-2807-49F6-AF09-51F9DD22D979}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D91D54C1-2807-49F6-AF09-51F9DD22D979}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79E6549C-388A-46B6-92E0-8C19B6EF6604}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79E6549C-388A-46B6-92E0-8C19B6EF6604}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79E6549C-388A-46B6-92E0-8C19B6EF6604}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79E6549C-388A-46B6-92E0-8C19B6EF6604}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7FBFBBDE-C1C5-40BC-8218-C751D430E21B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FBFBBDE-C1C5-40BC-8218-C751D430E21B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FBFBBDE-C1C5-40BC-8218-C751D430E21B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FBFBBDE-C1C5-40BC-8218-C751D430E21B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24E22D01-1062-4B5A-9B2D-E301DC777853}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24E22D01-1062-4B5A-9B2D-E301DC777853}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24E22D01-1062-4B5A-9B2D-E301DC777853}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24E22D01-1062-4B5A-9B2D-E301DC777853}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{24E22D01-1062-4B5A-9B2D-E301DC777853} = {9DDAD757-F624-46E7-A54F-6552F4498C8B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A05430A5-7DE5-4A58-9DA7-740AB04663D4}
+	EndGlobalSection
+EndGlobal
